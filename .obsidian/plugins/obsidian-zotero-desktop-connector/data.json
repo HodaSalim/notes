@@ -1,0 +1,21 @@
+{
+  "database": "Zotero",
+  "noteImportFolder": "",
+  "pdfExportImageDPI": 120,
+  "pdfExportImageFormat": "jpg",
+  "pdfExportImageQuality": 90,
+  "citeFormats": [],
+  "exportFormats": [
+    {
+      "name": "Zotero",
+      "outputPathTemplate": "01 - Literature Notes/{{citekey}}.md",
+      "imageOutputPathTemplate": "99 - Meta/Attachements/{{citekey}}/",
+      "imageBaseNameTemplate": "image",
+      "templatePath": "99 - Meta/Templates/zotero-template.md"
+    }
+  ],
+  "citeSuggestTemplate": "[[{{citekey}}]]",
+  "openNoteAfterImport": false,
+  "whichNotesToOpenAfterImport": "first-imported-note",
+  "exeOverridePath": "/Users/unicorn/pdfannots2json"
+}

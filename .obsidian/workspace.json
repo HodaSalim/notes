@@ -1,0 +1,188 @@
+{
+  "main": {
+    "id": "3740649686c672cc",
+    "type": "split",
+    "children": [
+      {
+        "id": "4718678574e66ced",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dcce48a7b565a44f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 - Literature Notes/kleppmannDesigningDataIntensiveApplications.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b1cf2e1b49c3f3a8",
+    "type": "split",
+    "children": [
+      {
+        "id": "c56b994a27504c74",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3ecaca9a4681ddd5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "bd78b942b629ed1f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2a4f7d6ee5c2bd9a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 235.5
+  },
+  "right": {
+    "id": "518be7a0e877711d",
+    "type": "split",
+    "children": [
+      {
+        "id": "ababb4e6696946b0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4a34db39db14b44f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "01 - Literature Notes/kleppmannDesigningDataIntensiveApplications.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a7870a65e5ed7791",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "01 - Literature Notes/kleppmannDesigningDataIntensiveApplications.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c3b364df16bc62c9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "df4ad5cc07879b0f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "01 - Literature Notes/kleppmannDesigningDataIntensiveApplications.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "random-note:Open random note": false
+    }
+  },
+  "active": "dcce48a7b565a44f",
+  "lastOpenFiles": [
+    "01 - Literature Notes/nasserFundamentalsDatabaseEngineering.md",
+    "99 - Meta/Attachements/nasserFundamentalsDatabaseEngineering/Row-Based+vs+Column-Based+Databases.pdf",
+    "01 - Literature Notes/newmanBuildingMicroservices.md",
+    "99 - Meta/Attachements/nasserFundamentalsDatabaseEngineering",
+    "99 - Meta/Attachements/nasserFundamentalsDatabaseEngineering/How+tables+and+indexes+are+stored+on+disk.pdf",
+    "99 - Meta/Attachements/Screenshot 2024-09-11 at 2.37.26 PM.png",
+    "01 - Literature Notes/kleppmannDesigningDataIntensiveApplications.md",
+    "Blog Readme file.md",
+    "instabug-backend-vacancy.md",
+    "99 - Meta/Attachements/Screenshot 2024-09-10 at 8.50.28 AM.png",
+    "99 - Meta/Attachements/Screenshot 2024-09-10 at 8.41.52 AM.png",
+    "99 - Meta/Attachements/Screenshot 2024-09-10 at 8.41.37 AM.png",
+    "99 - Meta/Attachements/Screenshot 2024-09-10 at 8.41.13 AM.png",
+    "99 - Meta/Attachements/Screenshot 2024-09-10 at 8.40.56 AM.png",
+    "99 - Meta/Attachements/Screenshot 2024-09-10 at 8.40.37 AM.png",
+    "01 - Literature Notes/botrosHighPerformanceMySQL.md",
+    "Untitled",
+    "99 - Meta/Attachements/botrosHighPerformanceMySQL/image-37-x68-y287.png",
+    "99 - Meta/Attachements/botrosHighPerformanceMySQL/image-36-x67-y401.png",
+    "99 - Meta/Attachements/botrosHighPerformanceMySQL/image-31-x70-y83.png",
+    "99 - Meta/Attachements/botrosHighPerformanceMySQL",
+    "Rails_𝕏.md",
+    "99 - Meta/Templates/zotero-template.md",
+    "99 - Meta/Attachements/newmanBuildingMicroservices",
+    "GoStream/streamyard-clone-build-guide.md",
+    "GoStream/buildstream-docker-guide.md",
+    "gorails.md",
+    "GoStream",
+    "GoStream/streamyard-clone-project-description.md",
+    "GoStream/buildstream-logging-implementation-guide.md",
+    "buildstream-architecture-design-v2.mermaid",
+    "03 - Tags",
+    "Untitled 1.md",
+    "04 - Posts/Blog",
+    "Welcome.md"
+  ]
+}

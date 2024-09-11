@@ -1,0 +1,9 @@
+{
+  "textFontFamily": "Tajawal",
+  "monospaceFontFamily": "MonoLisa Nerd Font",
+  "baseFontSize": 20,
+  "enabledCssSnippets": [
+    "style"
+  ],
+  "cssTheme": "Obsidian Nord"
+}

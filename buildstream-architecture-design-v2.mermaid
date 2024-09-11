@@ -1,0 +1,67 @@
+graph TD
+    Client[Client Browser/App]
+    APIGateway[API Gateway]
+    AuthService[Authentication Service]
+    UserService[User Service]
+    StudioService[Studio Service]
+    StreamingService[Streaming Service]
+    ChatService[Chat Service]
+    AnalyticsService[Analytics Service]
+    NotificationService[Notification Service]
+    
+    RabbitMQ[RabbitMQ]
+    MySQL[(MySQL)]
+    Redis[(Redis)]
+    ElasticsearchDB[(Elasticsearch DB)]
+    
+    Logstash[Logstash]
+    ElasticsearchLogs[(Elasticsearch Logs)]
+    Kibana[Kibana Dashboard]
+    
+    Client -->|HTTP/WebSocket| APIGateway
+    APIGateway -->|HTTP| AuthService
+    APIGateway -->|HTTP| UserService
+    APIGateway -->|HTTP| StudioService
+    APIGateway -->|WebSocket| StreamingService
+    APIGateway -->|WebSocket| ChatService
+    APIGateway -->|HTTP| AnalyticsService
+    APIGateway -->|HTTP| NotificationService
+    
+    AuthService -->|Read/Write| MySQL
+    UserService -->|Read/Write| MySQL
+    StudioService -->|Read/Write| MySQL
+    StudioService -->|Index/Search| ElasticsearchDB
+    StreamingService -->|Pub/Sub| RabbitMQ
+    ChatService -->|Pub/Sub| RabbitMQ
+    ChatService -->|Cache| Redis
+    AnalyticsService -->|Read/Write| MySQL
+    AnalyticsService -->|Cache| Redis
+    NotificationService -->|Pub/Sub| RabbitMQ
+    
+    APIGateway -.->|Logs| Logstash
+    AuthService -.->|Logs| Logstash
+    UserService -.->|Logs| Logstash
+    StudioService -.->|Logs| Logstash
+    StreamingService -.->|Logs| Logstash
+    ChatService -.->|Logs| Logstash
+    AnalyticsService -.->|Logs| Logstash
+    NotificationService -.->|Logs| Logstash
+    
+    Logstash -->|Index| ElasticsearchLogs
+    ElasticsearchLogs <--> Kibana
+    
+    subgraph "Data Layer"
+        MySQL
+        Redis
+        ElasticsearchDB
+    end
+    
+    subgraph "Message Broker"
+        RabbitMQ
+    end
+    
+    subgraph "Logging and Monitoring"
+        Logstash
+        ElasticsearchLogs
+        Kibana
+    end
